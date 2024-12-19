@@ -1,0 +1,213 @@
+.page-cover {
+    background-image: url("/images/about/cover-bg.svg");
+    background-position: bottom;
+    background-size: cover;
+    min-height: 400px;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -150px;
+}
+
+.page-cover h1 {
+    font-weight: 500;
+    font-size: 50px;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.page-cover .dotted-shape {
+    position: absolute;
+    margin-left: -970px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+h1 .blue,
+h2 .blue {
+    color: #1e78ff;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+}
+
+.basic-text-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.basic-text-content p {
+    color: #808080;
+    max-width: 1040px;
+    width: 100%;
+    margin: 0;
+}
+
+.world-map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.world-map-section img {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.world-map-section h2 {
+    position: absolute;
+    background: #ffffff;
+    padding: 0 40px;
+}
+
+.company-section {
+    display: flex;
+    align-items: center;
+}
+
+.company-section .image-section {
+    flex: 80%;
+    max-width: 80%;
+}
+
+.company-section .image-section img {
+    width: calc(100% + 120px);
+    margin-left: -120px;
+}
+
+.company-section .company-card {
+    flex: 20%;
+    max-width: 20%;
+    background: #fff;
+    box-shadow: 0px 12px 70px #00000029;
+    border-radius: 28px;
+    margin-left: -279px;
+    width: 439px;
+    min-width: 458px;
+    padding: 40px;
+    font-size: 13px;
+}
+
+.company-section .company-card .company-logo {
+    width: 200px;
+}
+
+.company-section .company-card .company-logo.coolmix-logo {
+    width: 150px;
+}
+
+.company-section .company-card > p {
+    padding-bottom: 10px;
+}
+
+.company-section-inverse {
+}
+
+.company-section-inverse .image-section img {
+    width: calc(100% + 120px);
+    margin-left: 0;
+}
+
+.company-section-inverse .company-card {
+    flex: 20%;
+    max-width: 20%;
+    background: #fff;
+    box-shadow: 0px 12px 70px #00000029;
+    border-radius: 28px;
+    margin-right: -279px;
+    margin-left: 0;
+    width: 439px;
+    min-width: 458px;
+    padding: 40px;
+    font-size: 13px;
+    z-index: 2;
+}
+
+a.btn-grey-outline {
+    border: 1px solid #707070;
+    border-radius: 50px;
+    color: #909090;
+    text-decoration: none;
+    padding: 3px 20px;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+a.btn-grey-outline:hover {
+    border-color: #1e78ff;
+    background: #1e78ff;
+    color: #fff;
+    scale: 1.1;
+}
+
+.only-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .page-cover h1 {
+        font-weight: 500;
+        font-size: 38px;
+        width: 450px;
+        margin: 0;
+        padding: 0;
+        margin-top: 60px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .company-section {
+        flex-direction: column;
+    }
+
+    .company-section .image-section {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: -100px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+
+    .company-section .image-section img {
+        margin: 0;
+        width: 100%;
+    }
+
+    .company-section .company-card {
+        flex: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .company-section-inverse {
+        flex-direction: column-reverse;
+    }
+
+    .only-desktop {
+        display: none;
+    }
+
+    .only-mobile {
+        display: block;
+    }
+}

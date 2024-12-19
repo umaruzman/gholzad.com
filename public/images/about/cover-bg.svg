@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="614.364" viewBox="0 0 1920 614.364">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1085e3"/>
+      <stop offset="1" stop-color="#35a5ff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M0,0V511.633S480,614.364,960,614.364s960-102.731,960-102.731V0Z" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="BG-hero" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Color_Primary" data-name="Color/Primary">
+      <rect id="Rectangle" width="1920" height="614" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
